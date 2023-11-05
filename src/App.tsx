@@ -1,10 +1,14 @@
-import "./App.scss";
+import { Fragment } from "react";
+import CssBaseline from "@mui/material/CssBaseline";
+//import ScopedCssBaseline from '@mui/material/ScopedCssBaseline';
+import './App.scss';
 
 function App() {
   return (
-    <>
-      <div className="test">Hello World</div>
-    </>
+    <Fragment>
+      <CssBaseline />
+      <div className="test wrap">Hello World</div>
+    </Fragment>
   );
 }
 
